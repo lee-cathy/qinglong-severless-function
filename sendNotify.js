@@ -1,5 +1,5 @@
 let SCKEY = 'SCT100324T19mh87AhDllyGYwGSkGCR9np';
-const $ = new Env();
+const $ = new Env("SendNotify");
 const timeout = 15000; //超时时间(单位毫秒)
 exports.serverNotify = function serverNotify(text, desp) {
   return new Promise((resolve) => {
