@@ -1,5 +1,5 @@
 /*
-cron "0 7 * * *" checkIn.js, tag:haval-checkin
+cron "0 7 * * *" checkIn.js, tag=haval-checkin
 */
 const JSEncrypt = require('node-jsencrypt');
 const axios = require('axios');
