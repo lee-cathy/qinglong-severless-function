@@ -1,4 +1,6 @@
 /*
+领京豆签到
+cron:15 0,16 * * *
 cron "0 7 * * *" checkIn.js, tag=haval-checkin
 */
 const JSEncrypt = require('node-jsencrypt');
